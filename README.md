@@ -37,12 +37,12 @@ def mock_llm_function_call(function_name, arguments):
 
 # Simulate user interaction and LLM response
 def main():
-    user_message = "What is the volume of a cylinder with radius 7 and height 15?"
+    user_message = "What is the volume of a cylinder with radius 4 and height 8?"
     print(f"User: {user_message}")
     
     # Simulated LLM recognizing the intent and invoking the function
     function_name = "calculate_cylinder_volume"
-    arguments = {"radius": 5, "height": 10}
+    arguments = {"radius": 4, "height": 8}
     
     # Mocking LLM function calling response
     response = mock_llm_function_call(function_name, arguments)
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     main()
 ```
 ## OUTPUT:
-<img width="808" height="74" alt="image" src="https://github.com/user-attachments/assets/3b51e37c-1acd-4cdb-a462-b96cff48ef00" />
+<img width="693" height="75" alt="image" src="https://github.com/user-attachments/assets/9ec1178e-11fe-40d9-a1a9-8499332c2fe6" />
 
 ## RESULT:
 Hence,the python program to design and implement a Python function for calculating the volume of a cylinder,  
